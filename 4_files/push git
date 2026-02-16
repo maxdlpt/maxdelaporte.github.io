@@ -1,0 +1,5 @@
+cd /d "C:\Users\MaximilienDelaporte\OneDrive - Heritage Holdings Corp UK Ltd\Documents\VSCode\PersWebsite"
+git add -A
+git commit -m "Update site"
+git pull --rebase origin website
+git push origin website
