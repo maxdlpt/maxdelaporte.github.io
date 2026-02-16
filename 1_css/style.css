@@ -238,6 +238,21 @@ h2 {
     background-color: #FF5532;
 }
 
+.cv-link,
+.cv-link:visited,
+.cv-link:hover,
+.cv-link:active,
+.cv-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cv-link::after,
+.cv-link:hover::after {
+    width: 0;
+    display: none;
+}
+
 /* ==================== 
    About Section 
    ==================== */
